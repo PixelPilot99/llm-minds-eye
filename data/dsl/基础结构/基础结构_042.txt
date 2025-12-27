@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n接下来只输出自然语言，不要重复【图形】，关注assistant后面的回答。<|im_end|><|im_start|>user\n这是个简单的空间表示，根据你看到的【图形】的内容，在【描述】后面专注于使用自然语言解释这个画面关系。【图形】",
+  "matrix": "R1:5☆|R2:1☆4★|R3:5☆|R4:4★1☆|R5:5☆<|im_end|><|im_start|>assistant\n",
+  "answer": "【描述】两条一样长，且平行的直线，但是他们没有被对齐，整个图案不构成轴对称，但是属于中心对称结构。<|im_end|><|endoftext|>"
+}

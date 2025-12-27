@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n接下来只输出自然语言，不要重复【图形】，关注assistant后面的回答。<|im_end|><|im_start|>user\n这是个简单的空间表示，根据你看到的【图形】的内容，在【描述】后面专注于使用自然语言解释这个画面关系。【图形】",
+  "matrix": "R1:1☆2★2☆|R2:1☆4★|R3:5☆|R4:1☆4★|R5:1☆2★2☆<|im_end|><|im_start|>assistant\n",
+  "answer": "【描述】上部的图像通过垂直翻转后可以与下半部重合，所以此图是上下对称的。<|im_end|><|endoftext|>"
+}

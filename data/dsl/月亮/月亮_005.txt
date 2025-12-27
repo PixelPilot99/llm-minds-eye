@@ -1,0 +1,5 @@
+{
+  "input": "[识别图形]",
+  "matrix": "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n&&&&&&&&&&&&&&&FFFFFFFF&&&&&&&&&\n&&&&&&&&&&&&&FFFFFFFFFFFFF&&&&&&\n&&&&&&&&&&&FFFFFFFFFFFFFFFF&&&&&\n&&&&&&&&&FFFFFFFFFFFFFFFFFFF&&&&\n&&&&&&&&&FFFFFFFFFFFFF&&&&&&&&&&\n&&&&&&&&FFFFFFFFFFFF&&&&&&&&&&&&\n&&&&&&&FFFFFFFFFFFF&&&&&&&&&&&&&\n&&&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&\n&&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&\n&&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&&\n&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&&\n&&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&&&FFFFFFFFF&&&&&&&&&&&&&&&&\n&&&&&&&FFFFFFFFFF&&&&&&&&&&&&&&&\n&&&&&&&FFFFFFFFFFF&&&&&&&&&&&&&&\n&&&&&&&&FFFFFFFFFF&&&&&&&&&&&&&&\n&&&&&&&&&FFFFFFFFFFFF&&&&&&&&&&&\n&&&&&&&&&&FFFFFFFFFFFFFFFFF&&&&&\n&&&&&&&&&&&FFFFFFFFFFFFFFF&&&&&&\n&&&&&&&&&&&&&FFFFFFFFFFF&&&&&&&&\n&&&&&&&&&&&&&&&&&FFF&&&&&&&&&&&&\n&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&",
+  "output": "月亮"
+}

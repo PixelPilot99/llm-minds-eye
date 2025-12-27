@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n请用自然语言解释空间关系概念<|im_end|><|im_start|>user\n什么是轴对称？<|im_end|><|im_start|>assistant\n",
+  "matrix": "",
+  "answer": "轴对称是指图形可以沿一条直线对折后完全重合。比如字母'A'沿中心垂直线对折，左右两边能完全重合。<|im_end|><|endoftext|>"
+}

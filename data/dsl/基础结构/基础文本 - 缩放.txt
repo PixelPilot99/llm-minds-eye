@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n请用自然语言解释空间关系概念<|im_end|><|im_start|>user\n什么是缩放？<|im_end|><|im_start|>assistant\n",
+  "matrix": "",
+  "answer": "缩放是一种通过比例因子改变图形大小（可能伴随形状改变）的几何变换。它围绕一个固定点（缩放中心）进行，改变所有点到该中心的距离。均匀缩放保持形状相似，而非均匀缩放则可能导致扭曲。<|im_end|><|endoftext|>"
+}

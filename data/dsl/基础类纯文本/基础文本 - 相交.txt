@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n请用自然语言解释空间关系概念<|im_end|><|im_start|>user\n什么是相交？<|im_end|><|im_start|>assistant\n",
+  "matrix": "",
+  "answer": "两条直线如果在同一个平面内，并且有且只有一个公共点，则称它们为相交直线。相交直线的方向向量不成比例（即斜率不同）。<|im_end|><|endoftext|>"
+}

@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n请用自然语言解释空间关系概念<|im_end|><|im_start|>user\n什么是平移？<|im_end|><|im_start|>assistant\n",
+  "matrix": "",
+  "answer": "图形上的所有点沿同一方向移动相同的距离。不改变图形的形状、大小和方向，只是改变了位置。数学上可以看作x′ ,y′=(x+a,y+b)。<|im_end|><|endoftext|>"
+}

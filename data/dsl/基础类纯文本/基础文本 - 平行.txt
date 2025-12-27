@@ -1,0 +1,5 @@
+{
+  "instruction": "<|im_start|>system\n请用自然语言解释空间关系概念<|im_end|><|im_start|>user\n什么是轴对称？<|im_end|><|im_start|>assistant\n",
+  "matrix": "",
+  "answer": "平行是描述两条直线（或更广义的几何对象，如平面、曲线等）之间位置关系的基本概念。两条直线如果在同一个平面内，并且永不相交（没有公共点），则称它们为平行直线。在三维空间中，两条直线如果不相交且不在同一平面内，称为异面直线（skew lines），它们不是平行的。<|im_end|><|endoftext|>"
+}
