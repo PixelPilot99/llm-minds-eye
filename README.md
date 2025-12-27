@@ -1,9 +1,7 @@
 # llm-minds-eye
-
-**[English](#english-version) | [中文](#中文版)**
-
 ----
 An exploratory data and script archive aimed at investigating whether LLMs can learn "spatial structure description" abilities **without relying on a vision encoder**. This is attempted by representing 2D silhouettes and a few three-view drawings using a **pure text/token structure** (a custom Domain-Specific Language or DSL).
+
 一个探索性数据与脚本归档仓库：尝试用**纯文本/Token 结构**（自定义 DSL Domain-Specific Language）来表示二维剪影与少量三视图描述，用于探测/实验 LLM 在**不依赖视觉编码器**的前提下，能否学习到某种“空间结构描述”的能力。
 
 
@@ -11,13 +9,13 @@ An exploratory data and script archive aimed at investigating whether LLMs can l
 
 > **Important Note (Scope and Expectations)**
 >
-> - This repository is an **unfinished exploration log + data archive**. It is not a mature benchmark, and training results are not guaranteed to be stable or reproducible.
+> - This repository is an **unfinished exploration log + data（Chinese） archive**. It is not a mature benchmark, and training results are not guaranteed to be stable or reproducible.
 > - I intend for it to serve as a starting point for experiments related to **data formats, tokenizers, and structured text representation**, for others to reference or build upon.
 > - The code was completed through **AI-assisted programming** (I was responsible for defining requirements, designing data and iteration plans, and validation/debugging).
 
 > 重要说明（定位与预期）
 >
-> - 本仓库是**未完成的探索记录 + 数据留档**，不是成熟的 benchmark，也不保证训练结果稳定可复现。
+> - 本仓库是**未完成的探索记录 + 数据（中文）留档**，不是成熟的 benchmark，也不保证训练结果稳定可复现。
 > - 我更希望它作为：**数据格式/Tokenizer/结构化文本表示**相关实验的起点，供有需要的人参考或二次研究。
 > - 代码为 **AI 协同编程**完成（我负责提出需求、设计数据与迭代方案、验证与调试）。
 
