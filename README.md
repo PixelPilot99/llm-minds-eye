@@ -43,12 +43,12 @@ I've observed that many LLMs become confused when dealing with spatial relations
 ## 2. Repository Content
 
 **data：**
-- `raw_png/` - Hand-drawn silhouettes
+- `raw_jpg/` - Hand-drawn silhouettes
 - `matrix/` - Intermediate products of 0/1 or symbol matrices
 - `dsl/` - DSL text representations
 
 **scripts：**
-- `png_to_matrix.py` - jpg -> symbol matrix
+- `jpg_to_matrix.py` - jpg -> symbol matrix
 - `matrix_to_dsl.py` - matrix -> DSL
 
 **train：**
@@ -96,7 +96,7 @@ The fields include Qwen's training template tags (e.g., `<|im_start|>`), which w
 **You will need to write your own scripts to read and clean the data**.
 
 ### Phase 0: Data Generation and Preprocessing (Artistic Foundation)
-- Hand-drew silhouettes (png).
+- Hand-drew silhouettes (jpg).
 - Batch-processed with scripts: jpg → 0/1-like matrices / symbol matrices.
 
 ### Phase 1: Matrix Prototype (Accumulated ~250+ early samples)
@@ -252,13 +252,13 @@ Thanks to the various LLM tools that assisted in the data format iteration, debu
 
 **data：**
 
-- `raw_png/` - 手绘剪影
+- `raw_jpg/` - 手绘剪影
 - `matrix/` - 0/1 或符号矩阵的中间产物
 - `dsl/` - DSL 文本表示
 
 **scripts：**
 
-- `png_to_matrix.py` - jpg -> 符号矩阵
+- `jpg_to_matrix.py` - jpg -> 符号矩阵
 - `matrix_to_dsl.py` - 矩阵 -> DSL
 
 **train：**
@@ -272,7 +272,7 @@ Thanks to the various LLM tools that assisted in the data format iteration, debu
 
 ### 3.1 从像素到符号矩阵（Phase 0 对应）
 - **数据来源**：剪影图最初由我在 Photoshop 手工绘制，保证形状、比例、空间关系可控。
-- **转换**：用脚本将 `.png` 转为符号矩阵（例如前景=1、背景=0，或用两种符号表示）。
+- **转换**：用脚本将 `.jpg` 转为符号矩阵（例如前景=1、背景=0，或用两种符号表示）。
 
 ### 3.2 为什么需要 DSL？
 早期我使用类似 `☆☆☆☆☆★★★★...` 这类长重复字符串表达行内容，怀疑：
@@ -307,7 +307,7 @@ Thanks to the various LLM tools that assisted in the data format iteration, debu
 **请自行编写脚本读取和清洗**。
 
 ### Phase 0：数据生成与预处理（艺术基础）
-- 手绘剪影（png）
+- 手绘剪影（jpg）
 - 脚本批处理：jpg → 类似0/1 矩阵/符号矩阵
 
 ### Phase 1：矩阵原型（约 250+ 的早期样本累计）
