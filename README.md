@@ -178,7 +178,7 @@ I encountered an issue where Unsloth repeatedly tried to download a model online
 - From: `use_exact_model_name = False`（line96）
 - To: `use_exact_model_name = True`
 
-> Disclaimer: This was a local workaround for my specific environment and version. It may not apply to all versions. It is recommended to include the actual commit/diff you modified in your fork for others to verify.
+> Disclaimer: This was a local workaround for my specific environment and version. It may not apply to all versions. 
 
 ### 5.4 LoRA Adapter Loading Compatibility
 - I experienced instability when loading LoRA adapters with Unsloth.
@@ -391,7 +391,7 @@ Thanks to the various LLM tools that assisted in the data format iteration, debu
 - 将：`use_exact_model_name = False`（第96行）
 - 改为：`use_exact_model_name = True`
 
-> 免责声明：这是我在当时环境/版本下的本地 workaround，未必适用于所有版本。建议在仓库中附上你实际修改的 commit/diff，方便他人核验。
+> 免责声明：这是我在当时环境/版本下的本地 workaround，未必适用于所有版本。
 
 ### 5.4 加载 LoRA 适配器的兼容性
 - 我遇到过 Unsloth 加载 LoRA adapter 不稳定的问题
